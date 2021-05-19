@@ -1,6 +1,6 @@
 # Binary ClassFile Reader
 
-Search and fetch Java classes from binary file
+Search and fetch Java classes from AOT compiled binary file
 
 ## Usage
 ```bash
