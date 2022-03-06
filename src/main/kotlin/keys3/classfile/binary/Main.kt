@@ -24,12 +24,12 @@ fun main(args: Array<String>) {
     Logger.INFO("Output folder", outputFolderPath)
 
     if (!File(path).exists()) {
-        Logger.ERROR("$path doesn't exists")
+        Logger.ERROR("$path doesn't exist")
         exitProcess(1)
     }
 
     if (File(path).isDirectory) {
-        Logger.ERROR("$path is a direcotry")
+        Logger.ERROR("$path is a directory")
         exitProcess(1)
     }
 
